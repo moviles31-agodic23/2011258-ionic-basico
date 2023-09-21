@@ -7,29 +7,16 @@
     <meta name="author" content="HTML Masters">
     <title>Ticket de compra</title>
     <link rel="stylesheet" href="estilos.css"/>
-   
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css" />
     
 </head>
 <body>
-    <div>
-        <h1>Ticket de Compra</h1>
-       
-        <div>
-            <label for="Articulo">Articulo:</label>
-            <input type="text" id="Articulo">
-        </div>
-        <div>
-            <label for="Valor">Valor:</label>
-            <input type="number" id="Valor">
-            
-        </div>
-        <button onclick="calcularTotal()">Agregar</button>
-        <ul id="items"></ul>
-        <p id="total">Total: $0.00</p>
-    </div>
+    
+      
 
     <script src="script.js"></script>
-
 </body>
 </html>
 
