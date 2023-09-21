@@ -1,0 +1,48 @@
+body{
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.clase1 {
+    
+    padding: 18px;
+}
+
+#id {
+   
+    padding: 10px;
+}
+
+button{
+    display: block;
+    color: rgb(255, 255, 255);
+    background-color: #7c3968;
+    margin-top: 10px;
+    border: none;
+    padding: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.fila{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.botones button{
+    display: block;
+    width: 25%;
+}
+
+input{
+    border: none;
+    padding: 10px;
+    background: #fff6f6;
+}
+
+label, input{
+    font-size: 15px;
+}
+
+
