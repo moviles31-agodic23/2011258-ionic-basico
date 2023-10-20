@@ -1,0 +1,7 @@
+{
+  "name": "miApp-2011258",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
