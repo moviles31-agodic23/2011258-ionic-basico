@@ -11,6 +11,6 @@ export class ListaComponent  implements OnInit {
 
   ngOnInit() {}
 
-   falso : boolean =true;
+   verdadero : boolean =true;
 
 }
