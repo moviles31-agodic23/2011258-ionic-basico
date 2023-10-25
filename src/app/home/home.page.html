@@ -14,7 +14,10 @@
   </ion-header>
 
   <div id="container">
-   <img [src]="imUrl">
+  <p>ingresa en nombre del alumno en el campo:</p>
+  <ion-input [(ngModel)]="nombreAlumno"></ion-input> 
+
+  <ion-label>el alumno se llama: <strong>{{nombreAlumno}}</strong></ion-label>
   </div>
     
 </ion-content>
