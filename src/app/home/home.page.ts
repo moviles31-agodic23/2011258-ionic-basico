@@ -15,4 +15,6 @@ export class HomePage {
       alert("hiciste clic!");
     }
 
+    imUrl: string = 'https://i.redd.it/7ksiaa4exhh01.gif'
+
   }
