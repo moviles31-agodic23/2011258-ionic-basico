@@ -11,5 +11,8 @@ export class HomePage {
 
   title: string = 'mi nueva pagina!';
 
+    hazmeClic(): void {
+      alert("hiciste clic!");
+    }
 
   }
